@@ -1,0 +1,536 @@
+* {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 1440px;
+
+}
+.body {
+    background-color: #fff;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 95%;
+    border-bottom-style: groove;
+    border: #fff;
+    margin-left: 35px;
+}
+.header .hanburger img{
+    display: none;
+    margin-top: 10px ;
+    width: 40px;
+}
+.header .left img {
+    margin: 0%;
+    width: 70%;
+}
+.header .left {
+    margin-top: 15px;
+    padding: 0%;
+    margin-right: 3px;
+    width: 20%;
+}
+.header .center{
+    width: 40%;
+    margin: 0%;
+} 
+ul {
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-weight: light;
+    font-size: 18px;
+    font-family: 'kumbh Sans', sans-serif;
+    margin-right: 10px ;
+    margin-left: 0%;
+    padding-left: 0%;
+    opacity: 75%;
+}
+.center ul li {
+    list-style: none;
+    margin: 0%;
+    padding-left: 0%;
+    padding-right: 10px;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 3px;
+    margin-left: 300px;
+}
+.right .why img {
+    padding-right: 15px;
+    width: 25px;
+    margin-top: 0%;
+}
+.right .hey img {
+    width: 60px;
+}
+.god {
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-left: 30px;
+    height: 90vh;
+}
+.father {
+    width: 43%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0%;
+    height: 70;%
+}
+.father .me {
+    width: 100%;
+    height: 67%;
+}
+.father .me img {
+    width: 90%;
+    height: 100%;
+    border-radius: 19px;
+}
+.father .me .second {
+    display: none;
+}
+.father .me .third {
+    display: none;
+}
+.father .you {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20%;
+}
+.father .you img {
+    width: 20%;
+    height: 70%;
+    border-radius: 19px;
+}
+.you img:hover {
+    border: 5px solid rgb(225, 125, 26);
+    opacity: 0.4;
+}
+.mother {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px ;
+    margin-left: 0%;
+}
+.mother .she h4 {
+    color: rgb(255, 125, 26);
+    font-family: 'kumbh sans', sans-serif;
+}
+.mother .lie h1 {
+    font-weight: bolder;
+    font-size: 50px;
+    margin-top: 1px;
+    margin-bottom: 0%;
+    font-family: 'kumbh sans', sans-serif;
+}
+.mother .cuss {
+    width: 80%;
+    margin-top: 10px;
+}
+.mother .cuss p {
+    font-weight: 250;
+    font-size: ;
+    line-height: 30px;
+    font-family: 'kumbh sans', sans-serif;
+}
+.mother .fuss {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    font-family: 'kumbh sans', sans-serif;
+}
+.mother .fuss h3 {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 0%;
+    margin-top: 20px;
+    font-family: 'kumbh sans', sans-serif;
+}
+.mother .fuss button {
+    background-color: hsl(25, 100%, 94%);
+    color:  rgb(255, 125, 26);
+    padding: 1px, 1px, 1px, 1px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 900;
+    height: 25px;
+    margin-top: 25px;
+}
+.mother .juss p {
+    display: none;
+}
+
+.mother .wuss p {
+    font-size: 20px;
+    font-family: 'kumbh sans', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 10px ;
+}
+.mother .yhep{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+    height: 7vh;
+}
+.mother .yhep .one{
+    width: 30%;
+    margin: 0%;
+}
+.mother .yhep .two{
+    width: 60%;
+}
+.two button {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color:  rgb(255, 125, 26);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 85%;
+    margin: 0%;
+    height: 100%;
+    font-family: 'kumbh sans', sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.one button {
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bolder;
+    margin: 0%;
+    padding-top: 26px; 
+    width: 90%;
+    height: 95%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'kumbh sans', sans-serif;
+}
+.up {
+    padding-right:%;
+    margin: 0%;
+}
+.down {
+    margin: 0%;
+    padding-left:;
+}
+
+@media screen and (max-width: 1100px) {
+    .god {
+        width: 90%;
+        margin-top: 0%;
+    }
+    .father {
+        width: 45%;
+    }
+    .mother {
+        width: 45%;
+        margin-top: 30px;
+    }
+    .header .left img {
+        margin: 0%;
+        width: 60%;
+    }
+    .header .left {
+        margin-top: 15px;
+        padding: 0%;
+        margin-right: 3px;
+        width: 15%;
+    }
+    .header .center{
+        width: 30%;
+        margin: 0%;
+    } 
+    ul {
+        margin-top: 8px;
+        padding-top: 8px;
+        font-weight: light;
+        font-size: 10px;
+        margin-right: 9px ;
+        margin-left: 0%;
+        padding-left: 0%;
+    }    
+    .father .me img {
+        width: 80%;
+        height: 95%;
+    }
+    .father .you img {
+        width: 16%;
+    } 
+    .mother .lie h1 {
+        font-weight: bolder;
+        font-size: 30px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .mother .cuss {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .mother .cuss p {
+        font-weight: 250;
+        font-size: 10px;
+        line-height: 25px;
+    }
+    .mother .fuss h3 {
+        font-weight: bolder;
+        font-size: 15px;
+        margin-bottom: 0%;
+        margin-top: 10px;
+    }
+    .mother .fuss button {
+        height: 20px;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .mother .wuss p {
+        font-size: 10px;
+        font-family: 'kumbh sans', sans-serif;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        margin-left: 0% ;
+    }
+
+    .two button {
+        width: 90%;
+        margin: 0%;
+        height: 100%;
+        font-size: 10px;
+    
+    }
+    .one button {
+        font-size: 10px;
+        margin-top: 0%;
+        padding-top: 13px; 
+        padding-bottom: 13px;
+    }
+    .two button img {
+        width: 20px
+
+    }
+    .mother .yhep {
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .header .hanburger img {
+        display: flex;
+        margin-top: 30px ;
+        width: 50px;
+    }      
+    .header .left img {
+        margin-top: 10px;
+        width: 350px;
+    }
+    .header .left {
+        margin-top: 15px;
+        padding: 0%;
+        margin-right: 3px;
+        width: 20%;
+    }
+    .header .center{
+        width: 40%;
+        margin: 0%;
+        display: none;
+    } 
+    .god {
+        width: 100%;
+        height: 145vh;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+    }
+    .father {
+        width: 100%;
+    } 
+    .mother {
+        width: 100%;
+    }
+    .father .me {
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        margin-top: 15px;
+        background-image: url(/image-product-1.jpg);
+        background-repeat: no-repeat;
+    }
+    .father .me img {
+        width: 100%;
+        height: 60%;
+        border-radius: 0%;
+        margin: 0%;
+        margin-left: 0%;
+        display: none;
+    }
+    .father .you {
+        display: none;
+    }
+    
+    .father .me .second {
+        display: flex;
+        width: 30px;
+        height: 45px;
+        margin-top: 40%;
+        margin-left: 5%;
+        background-color: #fff;
+        border-radius: 100%;
+        padding-top: 29px;
+        padding-left: 35px;
+        padding-bottom: 29px;
+        padding-right: 35px;}
+
+    .father .me .third {
+        display: flex;
+        width: 30px;
+        height: 45px;
+        margin-top: 40%;
+        margin-left: 70%;
+        background-color: #fff;
+        border-radius: 100%;
+        padding-top: 29px;
+        padding-left: 35px;
+        padding-bottom: 29px;
+        padding-right: 35px;
+        }
+    .right {
+        margin-top: 30px;
+        margin-left: 400px;
+    }
+     .right .why img {
+            padding-right: 15px;
+            width: 50px;
+            margin-top: 0%;
+        }
+    .right .hey img {
+            width: 50px;
+        }
+    .mother {
+        width: 100%;
+        height: 60%;
+        padding-left: 20px;
+
+    }
+    .mother .lie h1 {
+        width: 70%;
+        font-size: 70px;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .mother .she h4 {
+        font-size: 40px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        color: hsl(26, 100%, 55%);
+    }
+    .mother .fuss {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .mother .cuss {
+        width: 90%;
+        margin-top: 10px;
+    }
+    .mother .cuss p {
+        font-weight: 450;
+        font-size: 35px;
+        line-height: 55px;
+        margin-top: 10px;
+        width: 810px;
+        color: ;
+        opacity: 75%;
+    }
+    .mother .fuss h3 {
+        font-weight: bolder;
+        font-size: 65px;
+        margin-bottom: 50%;
+        margin-top: 10px;
+    }
+    .mother .fuss button {
+        height: 60px;
+        margin-top: 10px;
+        font-size: 30px;
+    }
+    .mother .wuss p {
+        display: none;
+    }
+    .mother .juss p {
+        display: block;
+        font-size: 45px;
+        font-weight: 300;
+        margin-top: 35px;
+        margin-bottom: 15px;
+        margin-left: 200px ;
+        width: 30%;
+        opacity: 75%;
+    }
+    .mother .yhep {
+        width: 100%;
+        height: 150px;
+        margin-top: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }    
+    .mother .yhep .two button {
+        width: 810px;
+        height: 150px;
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 50px;
+        text-align: center;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    .one button {
+        width: 810px;
+        height: 120px;
+        font-size: 50px;
+        margin-top: 0%;
+        margin-right: 10px;
+        margin-left: 25px;
+        padding-top: 14%; 
+        padding-bottom: 13px;
+        margin-bottom: 40px;
+        padding-right:;
+        border-radius: 25px;
+    }
+    .two button img {
+        width: 50px
+    }
+    .up {
+        width: 40px;
+        padding-top:15px;
+        margin-left: 60px;
+    }
+    .down {
+        width: 35px;
+        margin-top: 20px;
+        margin-right: 60px
+    }
+}
